@@ -14,4 +14,3 @@ dependencies:
   - pytorch
   - scikit-learn
   - attrs
-prefix: C:\Users\thopri\AppData\Local\miniforge3\envs\AISIT
