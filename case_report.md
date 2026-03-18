@@ -14,6 +14,10 @@ The data can be downloaded from the following:
 * British Antarctic Survey $\delta^{18}O$ dataset: <insert link here>
 * Arctic Ocean Reanalysis dataset: https://data.marine.copernicus.eu/product/ARCTIC_MULTIYEAR_PHY_002_003/files?subdataset=cmems_mod_arc_phy_my_topaz4_P1M_202506  
 
+The `config.yaml` file indicates where in the directory the data is stored. BAS data is included as part of the repository; however, due to size restrictions, the AOR is not. The user can choose whether to download the data in the same form as displayed in the `config.yaml` file or to update the path in the file.
+
+Note: It is not essential to use the AOR as the model on which the ML weights are applied. Any model can be used that has salinity, temperature and depth variables in the Arctic region.
+
 ## 2. Data
 
 ### 2.1. BAS dataset
