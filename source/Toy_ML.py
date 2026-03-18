@@ -314,6 +314,8 @@ class MLModel:
 
         Parameters
         ----------
+        ds : xarray.DataSet
+            Input DataSet
         data_vars : list of str
             List of data variable names to use as inputs to the model. Must be in the SAME ORDER as the training data
         scaler : sklearn.preprocessing._data.StandardScaler
